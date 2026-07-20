@@ -1,0 +1,8 @@
+# Local tool and package outputs
+.rokit/
+Packages/
+wally.lock
+
+# Local test, editor, and agent worktrees
+tests/__pycache__/
+.claude/worktrees/
