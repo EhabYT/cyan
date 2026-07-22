@@ -7,6 +7,7 @@ local Library = loadstring(game:HttpGet(repo .. "Library.lua"))()
 local ThemeManager = loadstring(game:HttpGet(repo .. "addons/ThemeManager.lua"))()
 local SaveManager = loadstring(game:HttpGet(repo .. "addons/SaveManager.lua"))()
 local KeySystem = loadstring(game:HttpGet(repo .. "addons/KeySystem.lua"))()
+local HUD = loadstring(game:HttpGet(repo .. "addons/HUD.lua"))()
 
 local Options = Library.Options
 local Toggles = Library.Toggles
