@@ -1,7 +1,0 @@
-[package]
-name = "ehabyt/cyan"
-version = "26.7.7"
-registry = "https://github.com/UpliftGames/wally-index"
-realm = "shared"
-
-[dependencies]
