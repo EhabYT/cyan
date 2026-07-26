@@ -1,0 +1,10 @@
+# Tool versions are pinned for reproducible local development and CI.
+# Install Rokit v1.2.0 or newer, then run `rokit install`.
+
+[tools]
+# Wally's latest stable release at the time of this update.
+wally = "UpliftGames/wally@0.3.2"
+# Formatting and parser validation for Luau sources.
+stylua = "JohnnyMorganz/StyLua@2.5.2"
+# Current Luau CLI for local scripts and future non-Roblox test modules.
+luau = "luau-lang/luau@0.730"
