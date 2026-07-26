@@ -1,0 +1,10 @@
+# StyLua configuration for Cyan.
+# Canonical style: 4-space indentation, matching the core library and
+# manager add-ons. Run `stylua --check` to validate formatting.
+
+column_width = 100
+line_endings = "Unix"
+indent_type = "Spaces"
+indent_width = 4
+quote_style = "AutoPreferDouble"
+call_parentheses = "Always"
