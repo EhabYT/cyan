@@ -44,7 +44,7 @@ Library.Toggles.FeatureEnabled:OnChanged(function(enabled)
 end)
 ```
 
-Cyan exports `Library`, `SaveManager`, `ThemeManager`, `KeySystem`, `HUD`, and `Localization`. [Example.lua](Example.lua) demonstrates a localized, key-gated settings interface; type declarations for the library, package, and add-ons live in [Library.d.luau](Library.d.luau).
+Cyan exports `Library`, `SaveManager`, `ThemeManager`, `KeySystem`, `HUD`, and `Localization`. [Example.lua](Example.lua) demonstrates a localized, key-gated settings interface; [AimbotExample.lua](AimbotExample.lua) demonstrates wiring arbitrary in-game feature modules (aim assist, prediction, ESP, trigger bot, movement hacks, …) to Cyan controls via `AddToggle`/`AddSlider`/`AddKeyPicker` callbacks (educational/experimental use only — such features violate the Roblox ToS); type declarations for the library, package, and add-ons live in [Library.d.luau](Library.d.luau).
 
 ### Direct loader
 
